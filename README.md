@@ -26,5 +26,5 @@ serve para consulta e transparência dos procedimentos.
 Pacotes usados: pandas, numpy, scipy, statsmodels, scikit-learn, matplotlib, openpyxl.
 
 ## Observações
-- O alfa de Cronbach foi calculado no Excel.
+- O alfa de Cronbach foi calculado no Excel e chacedo no código python.
 - A AVE foi obtida por componentes principais, como aproximação (ver trabalho).
