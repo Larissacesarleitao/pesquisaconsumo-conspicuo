@@ -13,8 +13,7 @@ informados de que os dados seriam usados exclusivamente para fins acadêmicos.
 - `analise_consumo_conspicuo.py`: código principal. Lê a base, trata os dados e
   roda as análises do trabalho (perfil da amostra, construtos, validade,
   correlações e regressões).
-- `tabelas_e_figuras.xlsx`: tabelas e figuras do trabalho, em três abas
-  (1. Perfil da amostra; 2. Construtos; 3. Correlações e regressões). A numeração
+- `tabelas_e_figuras.xlsx`: tabelas e figuras do trabalho. A numeração
   é a mesma do trabalho.
 - `material_adicional/`: código das verificações de robustez com variáveis indicadoras
   (dummies), citadas na seção de Resultados.
