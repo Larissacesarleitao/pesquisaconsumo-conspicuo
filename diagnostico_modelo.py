@@ -156,12 +156,4 @@ for nome, variaveis in MODELOS.items():    # variaveis =  lista de variáveis ex
         plt.tight_layout()
         plt.savefig(f"{SAIDA}/diagnostico_modelo.png", dpi=200)
 
-        # Coeficientes padronizados (betas): permitem comparar o peso das variáveis entre si
-        z = d.astype(float)
-        z = (z - z.mean()) / z.std()             #padroniza: cada variável fica com média 0 e desvio-padrão 1
-        X_z = sm.add_constant(z[variaveis])
-        m_z = sm.OLS(z["CC"], X_z).fit()         #mesma regressão, com as variáveis padronizadas
-
-        print()
-        print("Betas padronizados:")
-        print(m_z.params.drop("const").round(3))
+     
