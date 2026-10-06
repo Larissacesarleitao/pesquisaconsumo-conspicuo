@@ -17,6 +17,7 @@ informados de que os dados seriam usados exclusivamente para fins acadêmicos.
   é a mesma do trabalho.
 - `material_adicional/`: código das verificações de robustez com variáveis indicadoras
   (dummies), citadas na seção de Resultados.
+-`diagnostico_modelo.py`: Diagnósticos dos modelos de regressão: heterocedasticidade, linearidade , normalidade dos resíduos, observações influentes  e erros-padrão robustos.
 
 ## Como usar o código
 O código espera a base em Excel na mesma pasta, aba "Base Resultado Final", com
